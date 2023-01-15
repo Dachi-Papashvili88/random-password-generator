@@ -127,4 +127,37 @@ body {
     padding-bottom:0.3em;
   }
   
+
+  @media(max-width:500px) {
+    #container{
+      display: flex;
+      flex-direction: column;
+      width: 400px;
+      height: 700px;
+    }
+    h1, #random-password{
+      margin: 0 auto;
+      font-weight: 800;
+      font-size: 35px;
+
+    }
+    p{
+      font-size: 17px;
+      text-align: justify;
+    }
+    button{
+      width: 250px;
+      margin: 50px auto;
+    }
+    hr{
+      width: 250px;
+      margin-top: 50px;
+    }
+    #container2{
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+      
+    }
+  }
   
