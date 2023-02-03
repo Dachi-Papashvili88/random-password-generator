@@ -101,46 +101,46 @@ body {
      color: #D5D4D8;
      margin-left: 3.25em;
   }
-  
+
 
   p {
     margin-left: 2.55em;
   }
   
-  
+/* Mobile responsive features */ 
 
   @media(max-width:500px) {
     #container{
       display: flex;
       flex-direction: column;
-      width: 380px;
-      height: 550px;
+      width: 23.75em;
+      height: 34.375em;
       position:absolute;
       top:50%;
       left:50%;
       transform:translate(-50%, -50%);
     }
     h1, #random-password{
-      padding-top: 20px;
+      padding-top: 1.25em;
       font-weight: 800;
-      font-size: 35px;
+      font-size: 2.18;
 
     }
     p{
-      font-size: 17px;
+      font-size: 1.06rem;
       text-align: justify;
     }
     button{
-      width: 250px;
-      margin: 30px auto;
+      width: 15.62em;
+      margin: 1.87em auto;
     }
     hr{
-      width: 250px;
-      margin-top: 20px;
+      width: 15.62em;
+      margin-top: 1.25em;
     }
     #container2{
       flex-direction: column;
-      gap: 5px;
+      gap: 0.31em;
       align-items: center;
       
     }
