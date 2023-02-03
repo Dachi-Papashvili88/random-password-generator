@@ -3,68 +3,21 @@ body {
     padding: 0;
   }
   
+
   #container {
     width: 34.375em;
     height: 33.125em;
     background-color: #1F2937;
     margin: 0 auto;
     border-radius: 10px;
-  
   }
-  
-  h1 {
-    font-family:'Karla', sans-serif;
-    font-style: normal;
-    color: #FFFFFF;
-    font-weight: 800;
-    font-size: 2.5rem;
-    line-height: 2.5rem;
-    padding-top: 7.188rem;
-    margin-left: 3.25rem;
-    letter-spacing: -0.025rem;
-  
-  }
-  
-  #random-password {
-    font-family:'Karla', sans-serif;
-    font-style: normal;
-    color: #4ADF86;
-    font-weight: 800;
-    font-size: 2.5rem;
-    line-height: 2.5rem;
-    letter-spacing: -0.025rem;
-    padding-left: 3.25em;
-    
-  }
-  
-   #password-slider-text {
-     font-family: 'Inter', sans-serif;
-     font-style: normal;
-     font-weight: 400;
-     font-size: 1.25rem;
-     color: #D5D4D8;
-     margin-left: 3.25em;
-  }
-  
-  p {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.25rem;
-    color: #D5D4D8;
-    margin-left: 3.25em;
-  
-  }
-  
-  
+
   
   button {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 1rem;
     line-height: 1.5rem;
@@ -76,28 +29,25 @@ body {
     border-radius: 6px;
     margin-left: 3.25em;
     margin-top: 3.18em;
-    
-    
   }
-  
+
   
   hr {
     width: 27.81em;
     border: 1px solid #2F3E53;
     margin-top: 2.18em;
   }
+
   
   #container2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 1.56em;
-    
   }
   
-  #passwordOne {
-    font-family:'Karla', sans-serif;
-    font-style: normal;
+
+  #passwordOne, #passwordTwo {
     color: #4ADF86;
     text-align: center;
     width: 13.188em;
@@ -107,24 +57,56 @@ body {
     margin-top: 1.18em;
     padding-top: 0.9em;
     padding-bottom:0.3em;
-  
-    
   }
+
   
+  /* TYPOGRAPHY */
   
-  #passwordTwo {
+  h1 {
+    color: #FFFFFF;
+    padding-top: 7.188rem;
+    letter-spacing: -0.025rem;
+  }
+
+
+  h1, #random-password {
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: -0.025rem;
+    margin-left: 1.25em;
+  }
+
+
+  h1, #random-password, #passwordOne, #passwordTwo {
     font-family:'Karla', sans-serif;
     font-style: normal;
-    color: #4ADF86;
-    text-align: center;
-     width: 13.188em;
-    height: 1.75em;
-    background-color: #273549;
-    border-radius: 6px;
-      margin-top: 2.18em;
-     padding-top: 0.9em;
-    padding-bottom:0.3em;
   }
+
+
+  #password-slider-text, p, button {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+  }
+
+  
+  #random-password {
+    color: #4ADF86; 
+  }
+
+  
+   #password-slider-text, p {
+     font-weight: 400;
+     font-size: 1.25rem;
+     color: #D5D4D8;
+     margin-left: 3.25em;
+  }
+  
+
+  p {
+    margin-left: 2.55em;
+  }
+  
   
 
   @media(max-width:500px) {
